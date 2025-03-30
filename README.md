@@ -23,7 +23,6 @@ Using **r2modman** or **Thunderstore Mod Manager** is highly recommended.
 
 You **must** install these mods (and their dependencies like BepInEx/Jotunn) to join:
 
-*   **AzuAntiCheat:** [Link](https://thunderstore.io/c/valheim/p/Azumatt/AzuAntiCheat/)
 *   **CheatDeath:** [Link](https://thunderstore.io/c/valheim/p/shudnal/CheatDeath/)
 *   **ServerCharacters:** [Link](https://thunderstore.io/c/valheim/p/Smoothbrain/ServerCharacters/)
 *   **VentureFloatingItems:** [Link](https://thunderstore.io/c/valheim/p/VentureValheim/Venture_Floating_Items/)
@@ -42,7 +41,7 @@ This document outlines the major gameplay changes implemented through mod config
 
 ## Progression & World
 
-*   **Player-Based Progression (`WorldAdvancementProgression`):** Game progression (unlocking recipes, items, etc.) is tied to individual player boss kills, not global server keys. Boss summons are managed globally by admin `setkey` commands. Many actions like crafting specific tiers, building, and using guardian powers are locked until the required boss is defeated by the player. ([Link](https://thunderstore.io/c/valheim/p/VentureValheim/World_Advancement_Progression/))
+*   **Player-Based Progression & Boss Unlocks (`WorldAdvancementProgression`):** Game progression (unlocking recipes, items, etc.) is tied to individual player boss kills. Boss summons are locked initially; Server Admins will manually unlock the ability to summon the next boss globally (using `setkey`) for everyone approximately **one real-world week** after the previous boss unlock. Many actions like crafting specific tiers, building, and using guardian powers remain locked until the required boss is defeated by the player. ([Link](https://thunderstore.io/c/valheim/p/VentureValheim/World_Advancement_Progression/))
 *   **Location Reset (`LocationReset`):** Dungeons, camps, and other points of interest will automatically reset and repopulate after a set number of in-game days. ([Link](https://thunderstore.io/c/valheim/p/VentureValheim/Venture_Location_Reset/))
     *   Standard Reset: 30 days
     *   Plains Camps / Mistlands Dungeons: 45 days
@@ -88,4 +87,3 @@ This document outlines the major gameplay changes implemented through mod config
 
 *   **Server-Side Characters (`ServerCharacters`):** Player character data is stored and managed by the server, including backups. ([Link](https://thunderstore.io/c/valheim/p/Smoothbrain/ServerCharacters/))
 *   **Auto-Save (`ServerCharacters`):** Server performs an auto-save every 5 minutes. ([Link](https://thunderstore.io/c/valheim/p/Smoothbrain/ServerCharacters/))
-*   **Anti-Cheat (`AzuAntiCheat`):** The server checks that connecting clients have the required mods (specific list pending whitelist generation). Player stats (HP, Stamina, Carry Weight, Damage) are capped at high default values. ([Link](https://thunderstore.io/c/valheim/p/Azumatt/AzuAntiCheat/))
