@@ -1,3 +1,41 @@
+# How to Install Mods for this Server
+
+To join this server, you need to install specific mods. The easiest way is using a mod manager.
+
+## Method 1: Using a Mod Manager (Recommended)
+
+Using **r2modman** or **Thunderstore Mod Manager** is highly recommended.
+
+1.  **Install Manager:** Download and install r2modman or Thunderstore Mod Manager.
+2.  **Select Valheim:** Launch the manager and select Valheim.
+3.  **Create Profile:** Create a new profile (e.g., "Albear Server").
+4.  **Install Mods:** Go to "Online" or "Get Mods" and install the mods listed below using the provided links or by searching. Dependencies like BepInEx and Jotunn will usually be installed automatically.
+5.  **Launch:** **Always** start the game using the "Start Modded" button in the mod manager.
+
+## Method 2: Manual Installation
+
+1.  **Install BepInEx:** Download `BepInExPack_Valheim` from [here](https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/) and extract its contents into your main Valheim game folder (`steamapps/common/Valheim`).
+2.  **Install Jotunn:** Download `ValheimModding-Jotunn` from [here](https://valheim.thunderstore.io/package/ValheimModding/Jotunn/) and extract its `.dll` into `Valheim/BepInEx/plugins`.
+3.  **Download & Install Required Mods:** Download each mod from the list below and extract their `.dll` files (and any other included files/folders) into your `Valheim/BepInEx/plugins` folder.
+4.  **Launch:** Start Valheim through Steam.
+
+## Required Client-Side Mods
+
+You **must** install these mods (and their dependencies like BepInEx/Jotunn) to join:
+
+*   **AzuAntiCheat:** [Link](https://thunderstore.io/c/valheim/p/Azumatt/AzuAntiCheat/)
+*   **CheatDeath:** [Link](https://thunderstore.io/c/valheim/p/shudnal/CheatDeath/)
+*   **ServerCharacters:** [Link](https://thunderstore.io/c/valheim/p/Smoothbrain/ServerCharacters/)
+*   **VentureFloatingItems:** [Link](https://thunderstore.io/c/valheim/p/VentureValheim/Venture_Floating_Items/)
+*   **VentureLogoutTweaks:** [Link](https://thunderstore.io/c/valheim/p/VentureValheim/Venture_Logout_Tweaks/) (Link assumed based on other mods by author)
+*   **VentureMultiplayerTweaks:** [Link](https://thunderstore.io/c/valheim/p/VentureValheim/Venture_Multiplayer_Tweaks/)
+*   **WardIsLove:** [Link](https://thunderstore.io/c/valheim/p/Azumatt/WardIsLove/)
+*   **WorldAdvancementProgression:** [Link](https://thunderstore.io/c/valheim/p/VentureValheim/World_Advancement_Progression/)
+
+*(Note: `LocationReset` is likely server-side only and does not need to be installed by clients).*
+
+---
+
 # Valheim Modded Server Configuration Summary
 
 This document outlines the major gameplay changes implemented through mod configurations, focusing on differences from vanilla Valheim.
